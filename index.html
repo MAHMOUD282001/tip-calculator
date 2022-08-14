@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+  
+  
+  <div class="calculator">
+    <div class="container">
+      <div class="left">
+        <div class="bill">
+          <label for="bill">Bill</label>
+          <br>
+          <input type="text" name="" id="bill" placeholder="0">
+          <br>
+          <br>
+        </div>
+        
+        <div class="tip">
+          <label>Select Tip</label> <br>
+          <button style="margin-top: 7px;">5%</button>
+          <button>10%</button>
+          <button>15%</button>
+          <button>25%</button>
+          <button>50%</button>
+          
+          <input class="custom" type="text" placeholder="Custom">
+        </div>
+        
+        <div class="people">
+          <div class="cannot-zero">
+            <label for="people">Number of people</label>
+            <p class="zero-btn">Can't be zero</p>
+          </div>
+          <input type="text" name="" id="people">
+        </div>
+      </div>
+      
+      <div class="right">
+        <div class="amount">
+          <h5>Tip Amount <br> <span>/Person</span></h5>
+          <h1>$0.00</h1>
+        </div>
+        
+        <div class="total">
+          <h5>Total <br> <span>/Person</span></h5>
+          <h1>$0.00</h1>
+        </div>
+        
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="./script.js"></script>
+  
+  <!--
+  Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset
+   -->
+</body>
+</html>
